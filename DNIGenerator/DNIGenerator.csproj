@@ -6,6 +6,18 @@
     <Nullable>enable</Nullable>
     <Description>Generador y verificador de DNI</Description>
     <Authors>Yerax</Authors>
+    <Title>DNIGenerator</Title>
+    <PackageIcon>dni.png</PackageIcon>
+    <RepositoryUrl>https://github.com/yeraxls/DNIGenerator</RepositoryUrl>
+    <PackageTags>DNI; generator; generador</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="dni.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
